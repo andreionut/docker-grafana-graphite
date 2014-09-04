@@ -1,4 +1,5 @@
 from        ubuntu:14.04
+maintainer  Nepomuk Seiler <nepomuk.seiler@mukis.de>
 run         echo 'deb http://us.archive.ubuntu.com/ubuntu/ trusty universe' >> /etc/apt/sources.list
 run         apt-get -y update
 run         apt-get -y upgrade
